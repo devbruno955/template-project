@@ -1,0 +1,26 @@
+<?php
+$value = array (
+  'sitename' => 'Imópolis',
+  'sitetitle' => 'Pense Imóveis. Pense Imópolis.',
+  'googleanalitics' => 'UA-110925788-1',
+  'seochaves' => 'Classificados de Imóveis',
+  'seodescricao' => 'Seu Portal de Classificados de Imóveis',
+  'qtde_anuncios_destaque_home' => '15',
+  'txt1' => '',
+  'txt2' => 'Imóveis em Destaque',
+  'txt3' => '',
+  'txt4' => 'Anuncie agora em 5 minutos!',
+  'txt5' => '',
+  'txt6' => '',
+  'txt7' => '',
+  'txt8' => '',
+  'txt9' => '',
+  'textopagamento' => '',
+  'currency' => 'R$',
+  'currencyname' => 'BRL',
+  'timezone' => '',
+  'partnerdown' => 1,
+  'conduser' => 1,
+  'gzip' => 0,
+);
+?>

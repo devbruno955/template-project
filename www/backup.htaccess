@@ -1,0 +1,178 @@
+#Action application/x-hg-php53 /cgi-sys/php53
+#AddHandler application/x-hg-php53 .php
+
+#Configuração
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)\/?$ cidade.php?ename=$1
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)/dia\/?$ index.php 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^imovel/(.*)\/(.*)\/?$ index.php?idoferta=$1
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)page/(.*)\/?$ index.php?page=pagina&pagina=1&idpagina=$2
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)websiteafiliado/(.*)\/?$ index.php?idoferta=$2&acao=websiteafiliado
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)convite/(.*)\/?$ convite.php?idusuariopai=$2
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)carrinho/(.*)\/?$ index.php?page=carrinho&id=$2 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)cartpontos/(.*)\/?$ index.php?page=cartpontos&id=$2 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)/ofertas/(.*)\/?$ index.php?idcidade=$2 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)/estado/(.*)\/?$ index.php?uf=$2 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)/Categoria/(.*)\/?$ index.php?page=recentes&idcategoria=$2 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)/ofertas/recentes\/?$ index.php?page=recentes
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^cadastro$ index.php?acao=cadastro
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^conta$ index.php?page=meusdados
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^pedidos$ index.php?page=minhaconta
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^meusconvites$ index.php?page=meusconvites
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^logar$ app/design/padrao/logar.php
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^sair$ autenticacao/logout.php
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^sairanunciante$ autenticacao/logoutanunciante.php
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^cupons$ index.php?page=meuscupons
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^contato$ index.php?page=contato
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^imobiliarias$ index.php?page=imobiliarias
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^recentes$ index.php?page=recentes
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^indique$ index.php?page=indique
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^parceiros$ index.php?page=parceiro
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^enquete$ index.php?page=enquete
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^comprar/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/?$ index.php?page=search&anuncio=comprar&tipo=$1&quartos=$2&vagas=$3&bairro=$4&cidade=$5&estado=$6&cep=$7&condominio=$8
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^alugar/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/?$ index.php?page=search&anuncio=alugar&tipo=$1&quartos=$2&vagas=$3&bairro=$4&cidade=$5&estado=$6&cep=$7&condominio=$8
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^alugar-temporada/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/?$ index.php?page=search&anuncio=alugar-temporada&tipo=$1&quartos=$2&vagas=$3&bairro=$4&cidade=$5&estado=$6&cep=$7&condominio=$8
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^lancamentos/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/?$ index.php?page=search&anuncio=lancamentos&tipo=$1&quartos=$2&vagas=$3&bairro=$4&cidade=$5&estado=$6&cep=$7&condominio=$8
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^finalidade_todos/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/?$ index.php?page=search&anuncio=finalidade_todos&tipo=$1&quartos=$2&vagas=$3&bairro=$4&cidade=$5&estado=$6&cep=$7&condominio=$8
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^favoritos/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/?$ index.php?page=search&anuncio=alugar&tipo=$1&quartos=$2&vagas=$3&bairro=$4&cidade=$5&estado=$6&cep=$7&condominio=$8
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^cursos$ index.php?page=pagina&pagina=1&idpagina=cursos
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^shop$ "https\:\/\/imopolis\.lua\.net" [R=301,L] 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/$ index.php
+    
+
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L]
+
+<Files ^(*.jpeg|*.jpg|*.png|*.gif)> 
+   order deny,allow 
+   deny from all 
+</Files>
+
+#Força a utilizar Cache-Control e Expires header
+<IfModule mod_headers.c>
+  Header unset ETag
+</IfModule>
+FileETag None
+<IfModule mod_expires.c>
+ ExpiresActive on
+ ExpiresDefault "access plus 1 month"
+ ExpiresByType text/cache-manifest "access plus 0 seconds"
+ # Html
+ ExpiresByType text/html "access plus 0 seconds"
+ # Data
+ ExpiresByType text/xml "access plus 0 seconds"
+ ExpiresByType application/xml "access plus 0 seconds"
+ ExpiresByType application/json "access plus 0 seconds"
+ # Feed
+ ExpiresByType application/rss+xml "access plus 1 hour"
+ ExpiresByType application/atom+xml "access plus 1 hour"
+ # Favicon
+ ExpiresByType image/x-icon "access plus 1 week"
+ # Media: images, video, audio
+ ExpiresByType image/gif "access plus 1 month"
+ ExpiresByType image/png "access plus 1 month"
+ ExpiresByType image/jpg "access plus 1 month"
+ ExpiresByType image/jpeg "access plus 1 month"
+ ExpiresByType video/ogg "access plus 1 month"
+ ExpiresByType audio/ogg "access plus 1 month"
+ ExpiresByType video/mp4 "access plus 1 month"
+ ExpiresByType video/webm "access plus 1 month"
+ # HTC files
+ ExpiresByType text/x-component "access plus 1 month"
+ # Webfonts
+ ExpiresByType application/x-font-ttf "access plus 1 month"
+ ExpiresByType font/opentype "access plus 1 month"
+ ExpiresByType application/x-font-woff "access plus 1 month"
+ ExpiresByType image/svg+xml "access plus 1 month"
+ ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+ # CSS / JS
+ ExpiresByType text/css "access plus 1 year"
+ ExpiresByType application/javascript "access plus 1 year"
+ ExpiresByType application/x-javascript  "access plus 1 year"
+</IfModule>
+#Força o IE a sempre carregar utilizando a última versão disponível
+<IfModule mod_headers.c>
+  Header set X-UA-Compatible "IE=Edge,chrome=1"
+  <FilesMatch "\.(js|css|gif|png|jpeg|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
+    Header unset X-UA-Compatible
+  </FilesMatch>
+</IfModule>
+RewriteCond %{HTTP_HOST} ^blog\.imopolis\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.blog\.imopolis\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/imopolis\.blogspot\.com" [R=301,L]

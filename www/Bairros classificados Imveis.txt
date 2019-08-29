@@ -1,0 +1,232 @@
+1;MG;3596;Aeroporto Jatobá
+2;MG;3596;Afonsos(Rural)
+3;MG;3596;Algodao(Rural)
+4;MG;3596;Altavile
+5;MG;3596;Aristeu da Costa Rios
+6;MG;3596;Bairro da Represa(Rural)
+7;MG;3596;Bela Itália
+8;MG;3596;Bela Vila
+9;MG;3596;Belo Horizonte
+10;MG;3596;Boa Vista
+11;MG;3596;BR-459
+12;MG;3596;Caiçara
+13;MG;3596;Cajuru(Rural)
+14;MG;3596;Canta Galo(Rural)
+15;MG;3596;Cascalho
+16;MG;3596;Centro
+17;MG;3596;Cervo (Rural)
+18;MG;3596;Chaves (Rural)
+19;MG;3596;Cidade Foch I e II
+20;MG;3596;Cidade Jardim
+21;MG;3596;Cidade Vergani
+22;MG;3596;Colina dos Bandeirantes
+23;MG;3596;Colinas de Santa Bárbara
+24;MG;3596;Conj. Hab. Inconfidentes
+25;MG;3596;Cruz Alta (Rural)
+26;MG;3596;Curralinho(Rural)
+27;MG;3596;Distrito Industrial
+28;MG;3596;Distrito São José do Pântano (Rural)
+29;MG;3596;Faisqueira
+30;MG;3596;Fátima I, II e III
+31;MG;3596;Fazendinha(Rural)
+32;MG;3596;Ferreiras (Rural)
+33;MG;3596;Filomena
+34;MG;3596;Francisca Augusta Rios (Árvore Grande)
+35;MG;3596;Gabiroval(Rural)
+36;MG;3596;Gran Royalle (condomínio fechado)
+37;MG;3596;Imbuia(Rural)
+38;MG;3596;Ipiranga (Rural)
+39;MG;3596;Itaim(Rural)
+40;MG;3596;Jardim Aeroporto
+41;MG;3596;Jardim Amazonas
+42;MG;3596;Jardim América
+43;MG;3596;Jardim Aureliano
+44;MG;3596;Jardim Brasil
+45;MG;3596;Jardim Califórnia
+46;MG;3596;Jardim Canadá
+47;MG;3596;Jardim Esplanada
+48;MG;3596;Jardim Europa
+49;MG;3596;Jardim Flamboyant
+50;MG;3596;Jardim Floresta
+51;MG;3596;Jardim Guanabara
+52;MG;3596;Jardim Mariosa
+53;MG;3596;Jardim Noronha
+54;MG;3596;Jardim Olímpico
+55;MG;3596;Jardim Paraíso
+56;MG;3596;Jardim Santa Cruz
+57;MG;3596;Jardim São Fernando
+58;MG;3596;Jardim São João
+59;MG;3596;Jardim São Paulo
+60;MG;3596;Jardim Yara
+61;MG;3596;João Paulo II
+62;MG;3596;Lot. Alfredo Custódio de Paula (Medicina)
+63;MG;3596;Lot. Chiarini
+64;MG;3596;Lot. José Fernandes Barreiro
+65;MG;3596;Lot. Maria Franco
+66;MG;3596;Lot. Monte Azul
+67;MG;3596;Lot. Nossa Senhora Do Pilar I e II
+68;MG;3596;Lot. Pão de Açúcar
+69;MG;3596;Lot. São Benedito
+70;MG;3596;Lot. São Camilo
+71;MG;3596;Lot. São Joaquim
+72;MG;3596;Lot. São Jorge
+73;MG;3596;Lot. São Pedro II e III
+74;MG;3596;Massaranduba (Rural)
+75;MG;3596;Monte Carlo
+76;MG;3596;Morada do Sol
+77;MG;3596;Nossa Senhora de Guadalupe
+78;MG;3596;Nossa Senhora do Pilar I e II
+79;MG;3596;Nova Pouso Alegre
+80;MG;3596;Outro
+81;MG;3596;Parque Ibirá
+82;MG;3596;Parque Ibirá I e II
+83;MG;3596;Pitangueiras
+84;MG;3596;Portal Ipiranga
+85;MG;3596;Pousada dos Campos
+86;MG;3596;Pousada III
+87;MG;3596;Presidente Juscelino (JK)
+88;MG;3596;Primavera
+89;MG;3596;Recanto dos Barreiros
+90;MG;3596;Recanto dos Fernandes I e II
+91;MG;3596;Recanto dos Souzas
+92;MG;3596;Residencial Colina Verde
+93;MG;3596;Residencial Morumbi II
+94;MG;3596;Residencial Santa Adélia
+95;MG;3596;Residencial Santa Branca
+96;MG;3596;Residencial Santa Rita I e II
+97;MG;3596;Santa Adélia
+98;MG;3596;Santa Angelina (próximo planeta azul)
+99;MG;3596;Santa Branca
+100;MG;3596;Santa Dorotéia
+101;MG;3596;Santa Edwirges
+102;MG;3596;Santa Filomena
+103;MG;3596;Santa Ifigênia
+104;MG;3596;Santa Rosa (próximo gardênia)
+105;MG;3596;Santo Antônio
+106;MG;3596;Santo Expedito
+107;MG;3596;Santo Ivo
+108;MG;3596;São Camilo
+109;MG;3596;São Carlos
+110;MG;3596;São Cristóvão
+111;MG;3596;São Francisco
+112;MG;3596;São Geraldo
+113;MG;3596;São João
+114;MG;3596;São José
+115;MG;3596;Sao Jose do Pantano 2(Rural)
+116;MG;3596;Sao Sebastiao do Pantaninho(Rural)
+117;MG;3596;Sarpao (Rural)
+118;MG;3596;Saúde
+119;MG;3596;Serrinha(Rural)
+120;MG;3596;Shangrilá
+121;MG;3596;Tijuca
+122;MG;3596;Vale das Andorinhas
+123;MG;3596;Vale do Sol
+124;MG;3596;Vila Alvorada(Rural)
+125;MG;3596;Vila Beatriz
+126;MG;3596;Vila Costa Rios (Cruzeiro)
+127;MG;3596;Vila Ema
+128;MG;3596;Vila Nossa Senhora Aparecida
+129;MG;3596;Vila São Gonçalo
+130;MG;3596;Vista Alegre
+131;MG;3596;Zona Rural
+132;MG;3706;Anchieta
+133;MG;3706;Arco Iris
+134;MG;3706;Boa Vista 1
+135;MG;3706;Boa Vista 2
+136;MG;3706;Bom Retiro
+137;MG;3706;BR-459
+138;MG;3706;Centro
+139;MG;3706;Centro Empresarial
+140;MG;3706;Delcides Teles
+141;MG;3706;Eletronica
+142;MG;3706;Estancia das águas
+143;MG;3706;Fagundes
+144;MG;3706;Família Andrade
+145;MG;3706;Fernandes
+146;MG;3706;Inatel
+147;MG;3706;Jardim Beira Rio
+148;MG;3706;jardim das Palmeiras
+149;MG;3706;Jardim Santo Antônio
+150;MG;3706;José Gonçalves Mendes
+151;MG;3706;Juquita
+152;MG;3706;Loteamento do Valle 1
+153;MG;3706;Loteamento do valle 2
+154;MG;3706;Loteamento Jairo Grillo
+155;MG;3706;Loteamento São José
+156;MG;3706;Maristela
+157;MG;3706;Monte Verde
+158;MG;3706;Nossa Senhora de Fátima
+159;MG;3706;Nova Cidade
+160;MG;3706;Novo Horizonte
+161;MG;3706;Outro
+162;MG;3706;Ozório Machado
+163;MG;3706;Parque dos Pássaros
+164;MG;3706;Pedreira
+165;MG;3706;Pedro Sancho Vilela
+166;MG;3706;Piedade
+167;MG;3706;Por  do Sol
+168;MG;3706;Portal da Serra
+169;MG;3706;Porto
+170;MG;3706;Recanto das Margaridas
+171;MG;3706;Roseira
+172;MG;3706;Rua Nova
+173;MG;3706;Santa Felicidade
+174;MG;3706;Santana
+175;MG;3706;Santana II
+176;MG;3706;São Benedito
+177;MG;3706;Vila das Fontes
+178;MG;3706;Vintém
+179;MG;3706;Vista Alegre
+180;MG;3706;Zona Rural
+181;MG;3187;Açude
+182;MG;3187;Açude (Jd Colina)
+183;MG;3187;Agua Preta
+184;MG;3187;Anhumas
+185;MG;3187;Avenida
+186;MG;3187;Boa Vista
+187;MG;3187;Bps
+188;MG;3187;Cantina
+189;MG;3187;Centro
+190;MG;3187;Cruzeiro
+191;MG;3187;Distrito Industrial
+192;MG;3187;Estiva
+193;MG;3187;Imbel
+194;MG;3187;Jardim Bela Vista I
+195;MG;3187;Loteamento Paraíso
+196;MG;3187;Medicina
+197;MG;3187;Nações
+198;MG;3187;Nossa Senhora da Agonia
+199;MG;3187;Nossa Senhora de Fátima
+200;MG;3187;Nossa Senhora do Carmo
+201;MG;3187;Novo Horizonte
+202;MG;3187;Oriente
+203;MG;3187;Outro
+204;MG;3187;Pessegueiro
+205;MG;3187;Piedade
+206;MG;3187;Pinheirinho
+207;MG;3187;Porto Velho
+208;MG;3187;Rebourgeon
+209;MG;3187;Santa Luzia
+210;MG;3187;Santa Rita de Cássia
+211;MG;3187;Santa Rosa
+212;MG;3187;Santo Antônio
+213;MG;3187;Santos Dumont
+214;MG;3187;São Sebastião
+215;MG;3187;São Vicente
+216;MG;3187;Varginha
+217;MG;3187;Vila Isabel
+218;MG;3187;Vila Poddis
+219;MG;3187;Vila Rubens
+220;MG;3187;Zona Rural
+221;MG;2767;Centro
+222;MG;2767;Outro
+223;MG;2767;Zona Rural
+224;MG;2908;Centro
+225;MG;2908;Outro
+226;MG;2908;Zona Rural
+227;MG;2914;Centro
+228;MG;2914;Outro
+229;MG;2914;Zona Rural
+230;MG;2744;Centro
+231;MG;2744;Outro
+232;MG;2744;Zona Rural

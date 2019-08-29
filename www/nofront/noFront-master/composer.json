@@ -1,0 +1,16 @@
+{
+    "name": "nofront/nofront",
+    "description": "Todo as dependencias do projeto no front",
+    "authors": [
+        {
+            "name": "Paulo Sérgio Duff",
+            "email": "duff25rj@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.8"
+    },
+    "autoload": {
+		"psr-4": {"": "src/"}
+	}
+}

@@ -1,0 +1,73 @@
+ .det_form {
+    background: url("../images/topo_bgmenu.png") repeat-x scroll left top transparent;
+    margin-top: 3px;
+    padding: 5px 0 0 5px;
+}
+
+.det_form span {
+    background: url("../images/det_form.gif") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 33px;
+    padding-left: 15px;
+	margin-bottom: 0px;
+	width:93%;
+}
+.proposta{
+	width: 199px;
+	margin-top:14px;
+}
+.box-item {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD; 
+    position: relative;
+	width:220px;
+	float:left;
+	margin-left:8px;
+	padding:4px;
+    transition: all 0.25s linear 0s;
+}
+
+.box--voce-pode-gostar .box-figure {
+    width: 220px;
+}
+.box-figure {
+	margin-bottom:6px;
+    font-size: 0;
+    overflow: hidden;
+}
+figure {
+    margin: 0;
+}
+
+.box--voce-pode-gostar .box-content {
+    padding: 10px;
+}
+.box-content {
+    clear: both;
+    display: block;
+    line-height: 1.4em; 
+}
+.box-content-heading1 {
+    display: block;
+    font: 200 15px ColaborateLightRegular,sans-serif;
+    margin: 0 0 5px; 
+    padding: 0; 
+}
+.box-content-heading3 {
+	max-height:51px;
+	overflow:hidden;
+    border-bottom: 1px solid #DDDDDD;
+    color: #999999;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 1.4em;
+    margin: 0 0 5px;
+    padding-bottom: 5px;
+}
+.box-content-heading1 > a {
+    color: #444444;
+	 text-decoration: none;
+}
+ 

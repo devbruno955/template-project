@@ -1,0 +1,155 @@
+ 
+Imobili 5.0
+
+15/08/19 - otimizaca geral
+
+24/05/17 - Correção no bloco local parceiro
+17/05/17 - inclusao tipo na tabela user
+12/05/17 - correções diversas mobile
+19/04/17 - correção informação rodapé
+05/04/17 - correção diversas busca
+03/04/17 - correção diversas busca
+30/03/17 - correção cores 
+30/03/17 - correções erros filtro busca interna
+29/03/17 - INSTALL OK
+29/03/17 - correções erros filtro busca interna
+28/03/17 - correções cmapos de busca e filtros da home, diversas correções, novo layout na home
+
+23/03/17 - implementação busca estado cidade, bairro por cep no vipmin e adminanunciante.
+01/03/17 - correção valor condomínio página do anúncio
+24/02/17 - correção rodapé mobile
+22/02/17 - correções gerais mobile
+21/02/17 - correções gerais mobile
+07/02/17 - correção busca site
+03/02/17 - correção busca site
+12/01/17 - correção busca mobile
+08/11/16 - Inserção banner meio home.
+	padrao/home.php
+	compiled/manage_system_bulletin.php
+04/11/16 - Correção cadastro de usuário vipmin (data de cadastro incorreta).
+		vipmin/user/edit.php
+04/11/16 - correção busca mobile
+01/11/16 - correção busca mobile
+28/10/16 - Correção link banner topo no detalhe do anúncio.
+	bloco/box-banner.php
+05/10/16 - Correção no cálculos dos rendimentos mensais da home do vipmin
+vipmin/misc/index.php
+2.6.1 - 30/09/16 -	Correção na exibição de vagas e quartos na home.
+	bloco/bloco_anuncios_destaque.php
+	css/style.css
+2.6.0 - 29/09/16 -	Alteração da mascara de telefone para 9 digitos no cadastro 
+2.5.9 - 29/09/16 -  Correção erro 404 links do rodapé.
+	bloco/rodape.
+2.5.8 - 26/09/16 - Correção erro 404 mapa
+08/08/16 -Correção do redirecionamento de links para mobile
+	index.php
+29/07/2016 : display none campo CEP
+22/07/2016 : implementação busca campo CEP, duas formas diferentes de tipo de anuncio 
+08/06/16 : auto setup
+08/06/16: vpcsistemas: correção largura bannes home - alteração de slider para banner estatico
+15/03/16: Retirado menu "anunciantes" do vipmin - central-pc
+	compiled/menu
+15/02/16: Correção largura imagem topo home - central-pc;
+	js/slideshow/js/jquery.skitter.min
+
+14/02/16: vipcom-pc - teste
+
+10/02/16 - Correção função contadora de clicks - Central-pc;
+	bloco/detalhe_produto.php
+28/01/16 - Correção do combo de estados no cadastro de anúncios - central-pc;
+	compiled/manage_team_edit;
+	compilde/manage_team_anunciante_edit;
+	compiled/manage_team_edit_rural;
+	compilde/manage_team_anunciante_edit_rural;
+28/01/15 - Inclusão das cidades do estado do AC no dump- central-pc;
+19/01/16 - Correção na função de remoção de usuários - central-pc;
+	ajax/manage.php
+18/01/16 - Implementação dos campos de texto para alteração das frases do banner topo - central-pc;
+	compiled/manage_system_index.php
+	configure/system.php
+	bloco/bloco_banner_topo
+15/01/16 - Correção da ID de usuário exibida no header do admin anunciante - central- pc;
+	compiled/manage_anunciante_header
+14/01/16 - Inserido botão para curtir anúncios no twitter - central-pc;
+	bloco/box-dados-protudo;
+13/01/16 - Inserido botão para curtir anúncios no facebook - central-pc;
+	padrao/home_detalhe_produto;
+	bloco/box-dados-protudo;
+	padrao/css/style.css;
+	
+07/01/16 - Implementação da função para escapar caracteres especiais no cadastro de usuários- central-pc;
+	vipmin/user/edit;
+	compiled/manage_user_index;
+06/01/16 - Inclusão do e-mail de cadastro de anúncio - central-pc;
+	adminanunciante/team/edit;
+05/01/16 - Correção envio de email formulário propostas lateral - central-pc;
+	js/submitcontacts.js
+05/01/16 - Correção acentução noticias destaque - central-pc;
+	bloco/bloco_noticias_destaque.php
+22/12/15 - Implementação tkdeveloper - central-pc;
+	bloco/rodape
+21/12/15 - Implementação do número de celular no detalhe do anúncio - central-pc;
+	bloco/box-dados-produtos
+	bloco/box-contato
+	adminanunciante/partner/edit
+	compiled/manage_parceiro_partner_edit
+16/12/15 - Redimensionamento automático da imagem principal do detalhe produto - central-pc;
+	function/commom.php->upload_image()
+	bloco/box-dados-produto
+15/12/15 - Correção da opção de mostrar preço do anúncio - central-pc;
+	bloco/box-resultado
+	bloco/box-dados-produto
+	util/blocoofertas
+11/12/15 - Implementação dos thumbs das 20 fotos no detalhe do anúncio - central-pc;
+	vipmin/team/edit
+	bloco/box-dados-produto
+	util/bloco_ofertas
+	skin/padrão/css/style.css
+11/12/15 - Retirada do campo de foto 11 em duplicidade - central-pc;
+	compiled/manage_team_edit
+07/12/15 - Correção da exibição de adicional no detalhe do produto - central-pc;
+	bloco/box-dados-produtos.php.
+03/12/15 - Correção imagens banner lateral - central-pc;
+	bloco/bloco_banner_lateral.php
+03/12/15 - Correção do link das cidades destaque - central-pc;
+	bloco/bloco_cidades_destaque.php.
+02/12/15 - Correção do filtro por cidades na págin principal (padrao/search.php) - central-pc;
+01/12/15 - Correção do filtro por cidades na página de buscas (js/filtersearch, ajax/filtersearch) - central-pc;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+30/11/15 - Inclusão da página de edição dos dados do parceiro no adminanunciante- central-pc;
+30/11/15 - correção da posição telefone contato2 - central-pc;
+30/11/15 - correção dos links para redes sociais rodapé - central-pc;
+23/11/15 - correção da opção "mostrar preço" (bloco/box-dados-produto.php) - central-pc;
+20/11/15 - Correção da cidade que não era exibida na edição do anúncio (compiled/manage_team_edit) - central-pc;
+19/11/15 - Correção dos caracteres especiais na tabela tipoimovel do dump - central-pc;
+18/11/15 - Correção do mapa do detalhe produto - central-pc;
+18/11/15 - Retirada do link de cadastro de bairro do manage_team_anunciante_edit - central-pc;
+18/11/15 - Adição de botão para retornar ao topo da página - central-pc;
+17/11/15 - Email não era enviado no formulário de proposta (box_contato, js/SubmitContact) - central-pc;
+17/11/15 - Adição da mascara e validador de CPF/CNPJ - central-pc;
+17/11/15 - Inclusão do 9º dígito nas máscaras de telefone do sistema - central-pc;
+16/11/15 - Correção do login anunciante (manage_login_anunciante, adminanunciante/loginpos) - central-pc;
+16/11/15 - Adição do upload de 20 fotos no adminanuncitante - central-pc;
+09/11/15 - Condição para exibição do banner do cabeçalho (bloco/header.php) - central-pc;
+04/11/15 - Correção do link para cadastro na tela de login do adminanunciante (autenticacao.php, manage_login_anunciante) - central-pc;
+
+29/10/15
+///////////////////////////////////
+
+melhorias no css da página principal, header e header home, alteração do posicionamento do banner principal,
+correção do css das paginas estátivas, contato, faleconosco
+correção de link das cidades principais e outras diversas melhorias
+
+
+27/10/15://///////////////////////// 
+correção link de visualização do admin anunciante. ( include\compiled\manage_team_anunciante_index.php) - vipcom-pc
+inclusao de 10 fotos para anuncio na area do anunciante  adminanunciante\team\edit.php - vipcom-pc
+adaptação das fotos e thumbs no detalhe do anuncio  app\design\padrao\bloco\box-dados-produto.php  - vipcom-pc
+
+26/10/15: corração upload_image: remoção marcadagua: erro no upload da imagem da oferta - vipcom-pc
+22/10/15: Remoção do cookie de abertura de pagina de cadastro de email na home (include/head.php) - vipcom-pc
+21/10/15: Correção cadastro de bairros (ajax/filtro_pesquisa.php) - central-pc
+20/10/15: Correção listagem de estoque da imobiliária (index.php, padrao/seach.php) - central-pc;
+14/10/15: Correção link do estado do RS no mapa (bloco/box_mapa.php)- central-pc;
