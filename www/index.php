@@ -1,4 +1,7 @@
-﻿<?php
+<?php
+
+define('DIR_TEMPLATE', dirname(DIR_ROOT) . '/app/design/realcon'); // esta instrução deve ficar antes do app
+define('DIR_BLOCO',  DIR_TEMPLATE.'/bloco'); // o DIR_BLOCO foi substituido e incluido aqui
 
 require_once(dirname(__FILE__) . '/app.php');
 

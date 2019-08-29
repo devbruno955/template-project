@@ -1,0 +1,24 @@
+#top_debug{
+	border: 5px solid;
+    border-color:yellow;
+	z-index: 9999;
+}
+
+#top_menu{
+	border: 5px solid;
+    border-color: red;
+	z-index: 9999;
+}
+
+
+#busca_debug{
+	border: 5px solid;
+    border-color: blue;
+	z-index: 9999;
+}
+
+
+td {
+    width: 20%;
+    /*border: 5px solid;
+    border-color: red;*/

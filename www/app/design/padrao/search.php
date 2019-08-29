@@ -10,7 +10,7 @@
 
 
 <?php  
-		 require_once("include/head.php");
+		 require_once("app/design/realcon/head_html.php");
 		
 		/* Parâmetros recebidos via GET que serão utilizados em todos os blocos
 		   desta página.	
@@ -208,7 +208,9 @@
 				require_once(DIR_BLOCO . "/bloco_busca_topo.php");
 			?>
 			<div class="main">
+				
 				<div id="resultado" class="container-fluid page-container">
+
 					<?php require_once(DIR_BLOCO . "/header.php"); ?>
 					<?php require_once(DIR_BLOCO. "/breadcrumb.php"); ?>
 					<?php require_once(DIR_BLOCO. "/box_banner_search.php"); ?>  
